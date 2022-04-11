@@ -8,55 +8,55 @@ FFFFFF белый кнопки на стр портфолио и Hero
 EEEEEE белый --*/
 
 :root {
-    --primary-text-color: #212121;
-    --secondary-text-color: #757575;
-    --accent-text-color-blue: #2196F3;
-    --white-text-color: #FFFFFF;
-    --accent-text-color-black: #000000;
-    --background-color: #2F303A;  
-    --button-background: #F5F4FA;
-
+		--primary-text-color: #212121;
+		--secondary-text-color: #757575;
+		--accent-text-color-blue: #2196F3;
+		--white-text-color: #FFFFFF;
+		--accent-text-color-black: #000000;
+		--background-color: #2F303A;  
+		--button-background: #F5F4FA;
 }
-
-
 
 body {
-    font-family: Roboto,sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    letter-spacing: 0.03em;
-    color: var(--primary-text-color);
-    line-height: 1.2;
-    background-color: var(--white-text-color);
+		font-family: Roboto,sans-serif;
+		font-style: normal;
+		font-weight: 700;
+		font-size: 16px;
+		letter-spacing: 0.03em;
+		color: var(--primary-text-color);
+		line-height: 1.2;
+		background-color: var(--white-text-color);
 }
+
 a {
-    text-decoration: none;
-    font-style: normal;
+		text-decoration: none;
+		font-style: normal;
 }
 
 .logo {
-    font-family: Raleway;
-    font-style: normal;
-    font-size: 26px;
-    color: var(--accent-text-color-black);
+		font-family: Raleway;
+		font-style: normal;
+		font-size: 26px;
+		color: var(--accent-text-color-black);
 
 }
 .text-blue {
-    color: var(--accent-text-color-blue)
+  		color: var(--accent-text-color-blue)
 }
 
 .site-nav a {
-    font-weight: 500;
-    font-size: 14px;
-    letter-spacing: 0.02em;
+		font-weight: 500;
+		font-size: 14px;
+		letter-spacing: 0.02em;
    
 }
+
 .nav-link {
-    color: var(--primary-text-color);   
+    	color: var(--primary-text-color);   
 }
+
 .contact {
-    color: var(--secondary-text-color);
+    	color: var(--secondary-text-color);
 }
 
 .nav-link:hover,
@@ -65,106 +65,101 @@ a {
 .contact:hover,
 .contact:active,
 .contact:focus  {
-    color: var(--accent-text-color-blue);
+   	color: var(--accent-text-color-blue);
 }
- 
-
 
 .hero {
-    background-color: var(--background-color);
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.5;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: var(--white-text-color);
-  
+		background-color: var(--background-color);
+		font-weight: 900;
+		font-size: 44px;
+		line-height: 1.5;
+		text-align: center;
+		letter-spacing: 0.06em;
+		text-transform: uppercase;
+		color: var(--white-text-color);
 }
 
 .button-service{
-    line-height: 2.0;
-    color: var(--white-text-color);
-    background-color: var(--accent-text-color-blue);
-    font-size: 16px;
-    cursor: pointer;
+		line-height: 2.0;
+		color: var(--white-text-color);
+		background-color: var(--accent-text-color-blue);
+		font-size: 16px;
+		cursor: pointer;
 }
 
 .features h3{
-    font-size: 14px;
-    text-transform: uppercase;
-  }
+		font-size: 14px;
+		text-transform: uppercase;
+}
 
-  .features p {
+.features p {
       font-size: 14px;
       font-weight: 400;
       color: var(--secondary-text-color);
-  }
+}
 
 .activities h2,
 .staff h2{
-    font-size: 36px;
+      font-size: 36px;
    }
 
 .staff h3{
-     font-weight: 500;
-     font-size: 16px;
-  }
+		font-weight: 500;
+		font-size: 16px;
+}
   
-  .staff p {
+.staff p {
       font-weight: 400;
       color: var(--secondary-text-color);
-  }
-  footer {
-    background-color: var(--background-color);
-  }
-  footer .logo .text-white{
-    color: var(--white-text-color);
-  }
+}
+footer {
+		background-color: var(--background-color);
+}
+footer .logo .text-white{
+		color: var(--white-text-color);
+}
  
 .link-address ,
 .link-contact {
       font-size: 14px;
       font-weight: 400;
       color: var(--white-text-color);
-        
 }
 
 .link-contact {
-  opacity: 0.6;
+		opacity: 0.6;
 }
 
 .button-filter {
- font-weight: 500;
- font-family: Roboto,sans-serif;
- font-style: normal;
- font-size: 16px;
- color: var(--primary-text-color);
- cursor: pointer;
- text-align: center;
- border:none;
- outline: none;
- background: var(--button-background);
+		font-weight: 500;
+		font-family: Roboto,sans-serif;
+		font-style: normal;
+		font-size: 16px;
+		color: var(--primary-text-color);
+		cursor: pointer;
+		text-align: center;
+		border:none;
+		outline: none;
+		background: var(--button-background);
 }
 
 .button-filter:hover,
 .button-filter:focus,
 .button-filter:active{
-   color: var(--white-text-color);
-   background-color: var(--accent-text-color-blue);
-    }
+		color: var(--white-text-color);
+		background-color: var(--accent-text-color-blue);
+}
 
 .works h2{
-    font-size: 18px;
-    color: var(--primary-text-color);
+		font-size: 18px;
+		color: var(--primary-text-color);
 }
 
 .works p {
-font-weight: 400;
-color: var(--secondary-text-color);
-
+		font-weight: 400;
+		color: var(--secondary-text-color);
 }
 
 ul {
-    list-style: none;
+		list-style: none;
 }
