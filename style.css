@@ -13,7 +13,9 @@ EEEEEE белый --*/
     --accent-text-color-blue: #2196F3;
     --white-text-color: #FFFFFF;
     --accent-text-color-black: #000000;
-    --background-color: #2F303A;   
+    --background-color: #2F303A;  
+    --button-background: #F5F4FA;
+
 }
 
 
@@ -28,7 +30,10 @@ body {
     line-height: 1.2;
     background-color: var(--white-text-color);
 }
-
+a {
+    text-decoration: none;
+    font-style: normal;
+}
 
 .logo {
     font-family: Raleway;
@@ -50,16 +55,20 @@ body {
 .nav-link {
     color: var(--primary-text-color);   
 }
- 
 .contact {
     color: var(--secondary-text-color);
 }
 
-.site-nav a:hover,
-.site-nav a:focus,
-.site-nav a:active {
-    color: var(--accent-text-color);
+.nav-link:hover,
+.nav-link:focus, 
+.nav-link:focus,
+.contact:hover,
+.contact:active,
+.contact:focus  {
+    color: var(--accent-text-color-blue);
 }
+ 
+
 
 .hero {
     background-color: var(--background-color);
@@ -98,9 +107,10 @@ body {
    }
 
 .staff h3{
-
      font-weight: 500;
+     font-size: 16px;
   }
+  
   .staff p {
       font-weight: 400;
       color: var(--secondary-text-color);
@@ -108,12 +118,16 @@ body {
   footer {
     background-color: var(--background-color);
   }
+  footer .logo .text-white{
+    color: var(--white-text-color);
+  }
+ 
 .link-address ,
 .link-contact {
       font-size: 14px;
       font-weight: 400;
       color: var(--white-text-color);
-    
+        
 }
 
 .link-contact {
@@ -122,17 +136,25 @@ body {
 
 .button-filter {
  font-weight: 500;
+ font-family: Roboto,sans-serif;
+ font-style: normal;
+ font-size: 16px;
  color: var(--primary-text-color);
  cursor: pointer;
+ text-align: center;
+ border:none;
+ outline: none;
+ background: var(--button-background);
 }
 
 .button-filter:hover,
-.button-filter:focus {
+.button-filter:focus,
+.button-filter:active{
    color: var(--white-text-color);
    background-color: var(--accent-text-color-blue);
     }
 
-.works h3{
+.works h2{
     font-size: 18px;
     color: var(--primary-text-color);
 }
